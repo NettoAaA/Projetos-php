@@ -89,6 +89,21 @@
           "id": 1,
           "name": "Allan"
         }
+      },
+      {
+        "id": 7,
+        "player_one_id": 5,
+        "player_two_id": 1,
+        "result": 5,
+        "date": "2024-10-20T17:39:58.440Z",
+        "player_one": {
+          "id": 5,
+          "name": "Netto"
+        },
+        "player_two": {
+          "id": 1,
+          "name": "Allan"
+        }
       }
     ]
   }
