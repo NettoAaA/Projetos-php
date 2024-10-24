@@ -13,7 +13,7 @@
         exit;
     }
 
-    class Matchup {
+    class MatchupSolo {
         public $player1;
         public $player2;
         public $p1Win;
@@ -32,7 +32,7 @@
         }
     }
 
-    $matchups = CreateMatchup($data);
+    $matchups = CreateMatchupSolo($data);
     foreach ($matchups as $matchup) {
         echo "<div>Matchup: {$matchup->player1} vs {$matchup->player2}</div>";
         echo "<div><strong>{$matchup->player1}:</strong> Vitórias: {$matchup->p1Win} - Derrotas: {$matchup->p1Lose}</div>";
